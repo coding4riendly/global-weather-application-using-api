@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Prompt', sans-serif;
+  background-image: url("bg - weather app.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+.app-wrap{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+}
+header .the-whole-search-box{
+  display: flex;
+  flex-direction: row;
+}
+header .search-tool{
+  position: relative;
+  left: -45px;
+  top: 5.5px;
+  height: 30px;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+header input{
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 16px 0px;
+  color: #313131;
+  border-bottom: 3px solid #DF8E00;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2sec ease-out;
+}
+header input:focus{
+  background-color: rgba(255,255,255,0.6);
+}
+main{
+  flex: 1 1 100%;
+  padding: 25px 25px 50px; /*top,left,right*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.location-container .city{
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.location-container .date{
+  color: #FFF;
+  font-size: 16px;
+
+}
+.current .temp{
+  color: #FFF;
+  font-size: 102px;
+  font-weight: 900;
+  margin: 30px 0px;
+  text-shadow: 2px 5px rgba(0,0,0,0.6);
+}
+.current .temp span{
+  font-weight: 500;
+}
+.current .weather{
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 0px 3px rgba(0,0,0,0.4);
+}
+.current .high-low{
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 0px 3px rgba(0,0,0,0.4);
+}
