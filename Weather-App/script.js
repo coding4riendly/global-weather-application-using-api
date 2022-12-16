@@ -1,4 +1,4 @@
-console.log('Welcome to console Richard!')
+//API Details:
 const api = {
   key:"15627ae10f7775b3f2792ba6ca963668",
   baseurl:"https://api.openweathermap.org/data/2.5/"
